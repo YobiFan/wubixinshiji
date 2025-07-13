@@ -1,13 +1,14 @@
 # Rime字典: wubixinshiji
 #
 # 作者：樊永彪
-# 为编辑时打开速度更快，此文件仅包含头部设置，和一级简码码表和stem。具体文件在wubi_newage_dicts/wubilex
-# 修正了一级简码的stem为新世纪版（原来好像是86版）
+# 为编辑时打开速度更快，此文件仅包含头部设置，和一级简码码。具体文件在wubi_newage_dicts/wubilex
 
+# 修正了一级简码的stem为新世纪版（原来好像是86版）
+# 添加了阿拉伯数字和26个英文字母大小写。
 
 ---
 name: wubixinshiji
-version: "0.2"
+version: "0.3"
 sort: by_weight
 # sort: original
 use_preset_vocabulary: false
@@ -87,6 +88,7 @@ encoder:
 主	y	521303258	yg
 #言	y	521303257
 
+〇	ling
 0	ling
 1	ggll
 2	fgg
