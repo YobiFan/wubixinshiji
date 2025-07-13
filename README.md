@@ -7,12 +7,28 @@
 [Rime定制指南]: https://github.com/rime/home/wiki/CustomizationGuide
 
 
+-------------fork说明------------
+fork人：Yobi，有问题邮件联系我，fyb246@icloud.com
+fork自GuoBinyong/wubixinshiji
+由于原方案年久失修，字典中有错误的编码，所以我fork了一份。
+主要更改如下：
+1.将原方案的一级简码的stem错误修正。
+2.将主词库替换为wubilex导出的词库。
+3.将rime官方的86字典的词条转换为新世纪版，去除单字，作为补充词库。
+4.添加了字母和阿拉伯数字的编码。可以用作带有字母和数字的词语的输入和自动造词，如SD卡，T恤，SSD，3C数码，减少了打字时要频繁切换语言的右倾错误路线，哈哈哈开个玩笑啦。
+
+字母和数字的编码如下：
+0-9采用王永民先生的新世纪五笔的官方方案的汉字数字“〇-九”的编码，其中‘〇’的编码在很多输入法中没有编码，在这是参考了王永民的大一统输入法软件的方法，用了“ling”。
+字母部分是这样编码的，前两码为字母本身，后两码是字母的大小写来决定，大写用“dx”，小写用“xx”，如‘d’是‘ddxx’，‘F’是‘ffdx’。
+下面列出数字和字母的所有编码：
+0 ling, 1 ggll, 2 fgg, 3 dggg, 4 lhng, 5 gghg, 6 ywu, 7 agn, 8 wty, 9 vtn, A aadx, B bbdx, C ccdx, D dddx, E eedx, F ffdx, G ggdx, H hhdx, I iidx, J jjdx, K kkdx, L lldx, M mmdx, N nndx, O oodx, P ppdx, Q qqdx, R rrdx, S ssdx, T ttdx, U uudx, V vvdx, W wwdx, X xxdx, Y yydx, Z zzdx, a aaxx, b bbxx, c ccxx, d ddxx, e eexx, f ffxx, g ggxx, h hhxx, i iixx, j jjxx, k kkxx, l llxx, m mmxx, n nnxx, o ooxx, p ppxx, q qqxx, r rrxx, s ssxx, t ttxx, u uuxx, v vvxx, w wwxx, x xxxx, y yyxx, z zzxx
+
+-------------fork说明结束------------
 
 
 目录
 =================
 <!-- TOC -->
-
 - [1. 输入方案介绍](#1-输入方案介绍)
     - [1.1. 新世纪五笔](#11-新世纪五笔)
     - [1.2. 新世纪五笔·拼音](#12-新世纪五笔·拼音)
