@@ -1,0 +1,81 @@
+# Rime字典: other
+#
+# 作者：樊永彪
+# 从搜狗细胞词库经深蓝词典转换为纯文本，再经编码为新世纪五笔。
+# 本dict为狗品种名字，如果你需要其它，请自行转换添加。
+
+---
+name: other
+version: "0.1"
+sort: by_weight
+# sort: original
+columns:
+  - text
+  - code
+  - weight
+  - stem
+encoder:
+  exclude_patterns:
+    - '^z.*$'
+  rules:
+    - length_equal: 2
+      formula: "AaAbBaBb"
+    - length_equal: 3
+      formula: "AaBaCaCb"
+    - length_in_range: [4, 10]
+      formula: "AaBaCaZa"
+...
+
+# 纯汉字
+中华田园犬	kwld
+中国沙皮犬	klid
+京巴犬	ycdy
+北京犬	uydy
+博美	fgug
+卷毛比熊犬	utxd
+吉娃娃	fvvf
+哈士奇	kfds
+喜乐蒂牧羊犬	ftad
+圣伯纳犬	cwxd
+大白熊犬	drcd
+巴吉度猎犬	cfod
+巴哥犬	csdy
+彭布罗克威尔士柯基	fdla
+德国牧羊犬	tltd
+意大利灵缇犬	udtd
+拉布拉多	rdrq
+拉布拉多寻回犬	rdrd
+拉萨犬	rady
+斑点狗	ghqt
+日本银狐	jsqq
+松狮犬	sqdy
+松鼠犬	sedy
+比格犬	xsdy
+约克夏梗	xdds
+绒毛犬	xtdy
+罗威纳犬	ldxd
+美国可卡犬	ulsd
+美国爱斯基摩犬	uled
+腊肠犬	eedy
+苏格兰牧羊犬	asud
+苏牧	aett
+英国斗牛犬	alud
+萨摩耶	aobb
+萨摩耶德犬	aobd
+萨摩耶犬	aobd
+藏獒	adgq
+蝴蝶犬	jjdy
+西伯利亚雪橇犬	swtd
+西施犬	sydy
+西部高地白梗	suys
+贵宾犬	kpdy
+边境牧羊犬	eftd
+迷你杜宾犬	owsd
+迷你雪纳瑞	owfg
+金毛	qqtf
+金毛寻回犬	qtvd
+阿富汗猎犬	bpid
+阿拉斯加	brae
+阿拉斯加雪橇犬	brad
+雪纳瑞	fxgm
+

@@ -1,0 +1,192 @@
+# Rime字典: apple
+#
+# 作者：樊永彪
+# Apple公司的产品词库
+# 修正了一级简码的stem为新世纪版（原来好像是86版）
+# 数字用英文数字的首字母代替，‘+’号用plus替换
+# 示范：
+# iCloud  icloud
+# Apple ID  appleid
+# AppleTV+  appletvplus
+# Apple TV 4K appletvfk
+# 本词典为个人需要的词典，你如果不需要可以删除或添加其它词典，记得修改主目录下的wubixinshiji.dict.yaml下的import_tables项。
+
+
+---
+name: apple
+version: "0.1"
+sort: by_weight
+# sort: original
+columns:
+  - text
+  - code
+  - weight
+  - stem
+encoder:
+  exclude_patterns:
+    - '^z.*$'
+  rules:
+    - length_equal: 2
+      formula: "AaAbBaBb"
+    - length_equal: 3
+      formula: "AaBaCaCb"
+    - length_in_range: [4, 10]
+      formula: "AaBaCaZa"
+...
+
+Apple	apple
+iPhone	iphone
+iPhone SE	iphonese
+iPhone X	iphonex
+iPhone XR	iphonexr
+iPhone XS	iphonexs
+iPhone XS Max	iphonexsmax
+iPhoneSE	iphonese
+iPhoneX	iphonex
+iPhoneXR	iphonexr
+iPhoneXS	iphonexs
+iPhoneXSMax	iphonexsmax
+GS	gs
+Plus	plus
+SE	se
+XR	xr
+XS	xs
+XS Max	xsmax
+Pro	pro
+Pro Max	promax
+mini	mini
+XSMax	xsmax
+ProMax	promax
+iPad	ipad
+iPad mini	ipadmini
+iPad Air	ipadair
+iPad Pro	ipadpro
+iPadmini	ipadmini
+iPadAir	ipadair
+iPadPro	ipadpro
+Air	air
+MacBook	macbook
+MacBook Air	macbookair
+MacBook Pro	macbookpro
+MacBookAir	macbookair
+MacBookPro	macbookpro
+iMac	imac
+iMac Pro	imacpro
+iMac	imac
+iMacPro	imacpro
+Mac mini	macmini
+Mac Studio	macstudio
+Mac Pro	macpro
+Macmini	macmini
+MacStudio	macstudio
+MacPro	macpro
+Mac	mac
+Studio	studio
+Apple Watch	applewatch
+Apple Watch Series	applewatchseries
+Apple Watch SE	applewatchse
+Apple Watch Ultra	applewatchultra
+AppleWatch	applewatch
+AppleWatchSeries	applewatchseries
+AppleWatchSE	applewatchse
+AppleWatchUltra	applewatchultra
+Watch	watch
+Series	series
+Ultra	ultra
+AirPods	airpods
+AirPods Pro	airpodspro
+AirPods Max	airpodsmax
+AirPods	airpods
+AirPodsPro	airpodspro
+AirPodsMax	airpodsmax
+HomePod	homepod
+HomePod mini	homepodmini
+HomePodmini	homepodmini
+Apple Pencil	applepencil
+ApplePencil	applepencil
+Pencil	pencil
+Apple TV	appletv
+Apple TV HD	appletvhd
+Apple TV 4K	appletvfk
+TV	tv
+HD	hd
+AppleTV	appletv
+AppleTVHD	appletvhd
+AppleTV4K	appletvfk
+Magic Mouse	magicmouse
+Magic Keyboard	magickeyboard
+Magic Trackpad	magictrackpad
+MagicMouse	magicmouse
+MagicKeyboard	magickeyboard
+MagicTrackpad	magictrackpad
+Magic	magic
+Mouse	mouse
+Keyboard	keyboard
+Trackpad	trackpad
+Studio Display	studiodisplay
+Pro Display XDR	prodisplayxdr
+StudioDisplay	studiodisplay
+ProDisplayXDR	prodisplayxdr
+Display	display
+XDR	xdr
+Apple Vision Pro	applevisionpro
+Apple Vision	applevision
+Vision Pro	visionpro
+AppleVisionPro	applevisionpro
+AppleVision	applevision
+VisionPro	visionpro
+Vision	vision
+AirTag	airtag
+iOS	ios
+iPadOS	ipados
+macOS	macos
+watchOS	watchos
+tvOS	tvos
+visionOS	visionos
+Safari	safari
+iTunes	itunes
+Finder	finder
+Mail	mail
+Messages	messages
+FaceTime	facetime
+iMessage	imessage
+iMovie	imovie
+GarageBand	garageband
+Photos	photos
+Calendar	calendar
+Reminders	reminders
+Notes	notes
+Pages	pages
+Numbers	numbers
+Keynote	keynote
+Final Cut Pro	finalcutpro
+Logic Pro	logicpro
+FinalCutPro	finalcutpro
+LogicPro	logicpro
+Final	final
+Cut	cut
+Logic	logic
+Xcode	xcode
+Shortcuts	shortcuts
+Siri	siri
+iCloud	icloud
+Apple ID	appleid
+Apple Music	applemusic
+Apple TV+	appletvplus
+Apple Arcade	applearcade
+Apple News+	applenewsplus
+Apple Fitness+	applefitnessplus
+Apple Pay	applepay
+Apple Card	applecard
+iCloud Drive	iclouddrive
+Find My	findmy
+AppleID	appleid
+AppleMusic	applemusic
+AppleTV+	appletvplus
+AppleArcade	applearcade
+AppleNews+	applenewsplus
+AppleFitness+	applefitnessplus
+ApplePay	applepay
+AppleCard	applecard
+iCloudDrive	iclouddrive
+FindMy	findmy

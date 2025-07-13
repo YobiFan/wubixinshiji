@@ -1,9 +1,8 @@
 # Rime字典: yobi
 #
 # 作者：樊永彪
-# 从wubilex中导出的词库，改为rime格式
-# 修正了一级简码的stem为新世纪版（原来好像是86版）
-
+# 这是一个个人词典，你或许应该替换为自己所需要的词。
+# 本词典为个人需要的词典，你如果不需要可以删除或添加其它词典，记得修改主目录下的wubixinshiji.dict.yaml下的import_tables项。
 
 ---
 name: yobi
