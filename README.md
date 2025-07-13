@@ -1,34 +1,17 @@
 [袖珍简化字拼音]: https://github.com/rime/rime-pinyin-simp
 [東風破]: https://github.com/rime/plum
-[仓库地址]: https://github.com/GuoBinyong/wubixinshiji
-[issues]: https://github.com/GuoBinyong/wubixinshiji/issues
+[仓库地址]: https://github.com/YobiFan/wubixinshiji
+[原方案]: https://github.com/GuoBinyong/wubixinshiji
+[issues]: https://github.com/YobiFan/wubixinshiji/issues
 [Rime输入法]: https://rime.im
-[百度云盘]: https://pan.baidu.com/s/1bUdEAz7W8hC_imi66WVnaQ
 [Rime定制指南]: https://github.com/rime/home/wiki/CustomizationGuide
 
-
--------------fork说明------------
-fork人：Yobi，有问题邮件联系我，fyb246@icloud.com
-fork自GuoBinyong/wubixinshiji
-由于原方案年久失修，字典中有错误的编码，所以我fork了一份。
-主要更改如下：
-1.将原方案的一级简码的stem错误修正。
-2.将主词库替换为wubilex导出的词库。
-3.将rime官方的86字典的词条转换为新世纪版，去除单字，作为补充词库。
-4.添加了字母和阿拉伯数字的编码。可以用作带有字母和数字的词语的输入和自动造词，如SD卡，T恤，SSD，3C数码，减少了打字时要频繁切换语言的右倾错误路线，哈哈哈开个玩笑啦。
-
-字母和数字的编码如下：
-0-9采用王永民先生的新世纪五笔的官方方案的汉字数字“〇-九”的编码，其中‘〇’的编码在很多输入法中没有编码，在这是参考了王永民的大一统输入法软件的方法，用了“ling”。
-字母部分是这样编码的，前两码为字母本身，后两码是字母的大小写来决定，大写用“dx”，小写用“xx”，如‘d’是‘ddxx’，‘F’是‘ffdx’。
-下面列出数字和字母的所有编码：
-0 ling, 1 ggll, 2 fgg, 3 dggg, 4 lhng, 5 gghg, 6 ywu, 7 agn, 8 wty, 9 vtn, A aadx, B bbdx, C ccdx, D dddx, E eedx, F ffdx, G ggdx, H hhdx, I iidx, J jjdx, K kkdx, L lldx, M mmdx, N nndx, O oodx, P ppdx, Q qqdx, R rrdx, S ssdx, T ttdx, U uudx, V vvdx, W wwdx, X xxdx, Y yydx, Z zzdx, a aaxx, b bbxx, c ccxx, d ddxx, e eexx, f ffxx, g ggxx, h hhxx, i iixx, j jjxx, k kkxx, l llxx, m mmxx, n nnxx, o ooxx, p ppxx, q qqxx, r rrxx, s ssxx, t ttxx, u uuxx, v vvxx, w wwxx, x xxxx, y yyxx, z zzxx
-
--------------fork说明结束------------
 
 
 目录
 =================
 <!-- TOC -->
+- [0. 分支介绍](#1-分支介绍)
 - [1. 输入方案介绍](#1-输入方案介绍)
     - [1.1. 新世纪五笔](#11-新世纪五笔)
     - [1.2. 新世纪五笔·拼音](#12-新世纪五笔·拼音)
@@ -53,10 +36,37 @@ fork自GuoBinyong/wubixinshiji
 ===================
 
 
-> 方案下载地址
-> - [GitHub仓库地址][仓库地址] : <https://github.com/GuoBinyong/wubixinshiji>
-> - [百度云盘][] : 链接：<https://pan.baidu.com/s/1bUdEAz7W8hC_imi66WVnaQ> 提取码：v234
+# 0. 分支介绍
+> - **本方案下载地址（GitHub仓库）：**  
+<https://github.com/YobiFan/wubixinshiji>
+> - **本方案Fork自：** <https://github.com/GuoBinyong/wubixinshiji>  
 
+## 起因
+由于原方案年久失修，字典中有错误的编码，所以我fork了一份。
+### 主要更改：
+1. **将原方案的一级简码的stem错误修正。**
+2. **将主词库替换为wubilex导出的词库。**
+3. **将rime官方的86字典的词条转换为新世纪版，去除单字，作为补充词库。**
+4. **添加了字母和阿拉伯数字的编码。**  
+可以用作带有字母和数字的词语的输入和自动造词，如SD卡，T恤，SSD，3C数码，减少了打字时要频繁切换语言的右倾错误路线，哈哈哈开个玩笑啦。
+
+### 字母和数字的编码介绍
+#### 阿拉伯数字编码
+0-9采用王永民先生的新世纪五笔的官方方案的汉字数字“〇-九”的编码，其中‘〇’的编码在很多输入法中没有编码，此方案采用了王永民先生的大一统输入法软件的方法，用了“ling”。
+#### 英文字母编码
+字母部分是这样编码的，前两码为两个字母本身，大写小写全部都小写；后两码是字母的大小写来决定，大写用“dx”，小写用“xx”，如‘d’是‘ddxx’，‘F’是‘ffdx’。
+- 下面列出数字和字母的所有编码：  
+`0 ling, 1 ggll, 2 fgg, 3 dggg, 4 lhng, 5 gghg, 6 ywu, 7 agn, 8 wty, 9 vtn`  
+`A aadx, B bbdx, C ccdx, D dddx, E eedx, F ffdx, G ggdx, H hhdx, I iidx, J jjdx, K kkdx, L lldx, M mmdx, N nndx, O oodx, P ppdx, Q qqdx, R rrdx, S ssdx, T ttdx, U uudx, V vvdx, W wwdx, X xxdx, Y yydx, Z zzdx`  
+`a aaxx, b bbxx, c ccxx, d ddxx, e eexx, f ffxx, g ggxx, h hhxx, i iixx, j jjxx, k kkxx, l llxx, m mmxx, n nnxx, o ooxx, p ppxx, q qqxx, r rrxx, s ssxx, t ttxx, u uuxx, v vvxx, w wwxx, x xxxx, y yyxx, z zzxx`
+#### 使用方法
+**每个数字和字母都当作一个汉字**来使用就可以了，只是没有给它们安排简码，需要打全四个编码才能自动造词。没有安排简码的原因是我担心影响汉字输入，但是没有细细考究，目前使用上没有什么问题。  
+比如，“SD卡”的编码为“sdhg”；“3C数码”的编码为“dcod”。
+但是在第一次输入时，可能不会有，因为我只是做了部分我感兴趣的词条，你可能大部分情况还是要自动造词或者打造你自己的词库。  
+**自动造词**时，汉字**有简码**的可以打**简码**，**没有简码**的打**全码**，我加入的数字和字母**没有安排简码。**  
+如给“**MP3**“自动造词时，*m*的编码是*mmxx*，*p*的编码是*ppxx*，*3*的编码**简码**是*dg*，所以输入mmxxppxxdg然后在候选框中依次选择**m、p、3**，然后就可以用‘**mpdg**’打出‘**MP3**’了。
+
+#### 下面的内容修改自原方案！
 
 # 1. 输入方案介绍
 这是一套[Rime输入法][]的[新世纪五笔输入方案集][仓库地址]，并且支持自动匹配 emoji 表情，该方案集里有以下Rime输入方案：
@@ -91,7 +101,8 @@ fork自GuoBinyong/wubixinshiji
 
 ## 3.1. 安装
 ### 3.1.1. 方式1：東風破
-[東風破][]安裝命令：`bash rime-install GuoBinyong/wubixinshiji pinyin-simp`
+[東風破][]安裝命令：`bash rime-install YobiFan/wubixinshiji pinyin-simp`  
+（未经测试，不清楚plum的工作机制，暂时放这，有时间慢慢验证和完善）
 
 
 
@@ -99,7 +110,8 @@ fork自GuoBinyong/wubixinshiji
 1. 安装新世纪五笔方案集
    将以下文件或目录拷贝到Rime输入法的用户配置目录中:  
    
-   - [x] `wubixinshiji.dict.yaml` : 必选；五笔码表文件
+   - [x] `wubixinshiji.dict.yaml` : 必选；五笔码表文件头
+   - [x] `wubi_newage_dicts` :必选；五笔码表文件主体
    - [x] `opencc` : 必选；如果用户配置目录下已经有该目录，则把该目录的所有文件拷贝到用户配置目录下    `opencc` 目录中；
    - [ ] `wubixinshiji.schema.yaml` : 可选； 新世纪五笔 输入方案
    - [ ] `wubixinshiji_pinyin.schema.yaml` : 可选； 新世纪五笔·拼音 输入方案
@@ -116,7 +128,7 @@ fork自GuoBinyong/wubixinshiji
 
 
 
-## 3.2. 配置
+## 3.2. 配置（暂时原文拷贝自[原方案]）
 输入方案安装好后，还需要把需要用的输入方案加入方案选单，详细的配置方法，请参考[Rime定制指南][]，本文只简单教授其：
 
 在用户配置目录中
@@ -151,20 +163,33 @@ fork自GuoBinyong/wubixinshiji
 - Windows：**小狼亳**
 - Linux：**中州韻**
 - Android：**同文**
+- IOS：**Hamster仓**
 - IOS：**iRime输入法**
-
-
-
-
 
 
 
 # 5. 作者信息
 **如果您在使用该方案集的过程中有遇到了问题，或者有好的建议和想法，您都可以通过以下方式联系我，期待与您的交流：**  
+- **方案制作人：** 樊永彪
+- **邮箱：** <fyb246@icloud.com>
+## 请我喝茶
 
-- **方案制作人:** 郭斌勇
-- 给该仓库提交 [issues][]
-- 给我 Pull requests
-- **邮箱：** <guobinyong@qq.com>
-- **QQ：** guobinyong@qq.com
-- **微信：** keyanzhe
+- **Paypal：**
+<http://paypal.me/FanYongbiao>
+- **支付宝和微信**
+<img src="./aliPay.jpeg" width="207" height="281" />
+<img src="./wechatPay.jpeg"  width="207" height="281" />
+
+
+# 6. 致谢
+### 原方案：
+- **本方案Fork自:** <https://github.com/GuoBinyong/wubixinshiji>
+- **作者:** 郭斌勇
+### 词库参考：
+- **Wubi-Lex：** (主词库)  
+<https://github.com/aardio/wubi-lex>  <https://wubi.aardio.com/>  
+- **Rime官方五笔86版** (去掉单字，补充词库)  
+<https://github.com/rime/rime-wubi> 
+
+### 用到的工具:
+- **深蓝词库转换** <https://github.com/studyzy/imewlconverter>
