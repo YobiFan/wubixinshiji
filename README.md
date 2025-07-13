@@ -173,11 +173,11 @@
 - **方案制作人：** 樊永彪
 - **邮箱：** <fyb246@icloud.com>
 ## 请我喝茶
-
+**如果你喜欢这个项目，欢迎请我喝茶！**
 - **Paypal：**
 <http://paypal.me/FanYongbiao>
 - **支付宝和微信**
-<img src="aliPay.JPG" width="207" height="281" />
+<img src="aliPay.jpg" width="207" height="281" />
 <img src="./wechatPay.jpg"  width="207" height="281" />
 
 
