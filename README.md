@@ -37,9 +37,10 @@
 
 
 # 0. 分支介绍
-> - **本方案下载地址（GitHub仓库）：**  
-<https://github.com/YobiFan/wubixinshiji>
-> - **本方案Fork自：** <https://github.com/GuoBinyong/wubixinshiji>  
+> - **本方案下载地址（GitHub仓库）：**
+> - <https://github.com/YobiFan/wubixinshiji>
+> - **本方案Fork自：**
+> - <https://github.com/GuoBinyong/wubixinshiji>  
 
 ## 起因
 由于原方案年久失修，字典中有错误的编码，所以我fork了一份。
