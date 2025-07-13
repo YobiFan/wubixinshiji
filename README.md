@@ -177,7 +177,7 @@
 - **Paypal：**
 <http://paypal.me/FanYongbiao>
 - **支付宝和微信**
-<img src="./aliPay.jpg" width="207" height="281" />
+<img src="aliPay.JPG" width="207" height="281" />
 <img src="./wechatPay.jpg"  width="207" height="281" />
 
 
