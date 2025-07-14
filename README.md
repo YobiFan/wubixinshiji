@@ -186,7 +186,7 @@
 
 在原始版本的基础上，进行了编码修正、词库更换扩展（`wubixinshiji.dict.yaml` 和 `wubi_newage_dicts` 目录）及文档补全，以适配当前用户需求和输入法架构。  
 
-词库修改为[「Wubi-Lex」](https://github.com/aardio/wubi-lex)(主词库) 和 [「Rime官方五笔86版」](https://wubi.aardio.com/)（补充词库）。  
+词库修改为[「Wubi-Lex」](https://github.com/aardio/wubi-lex)(主词库) 和 [「Rime官方五笔86版」](https://github.com/rime/rime-wubi/)（补充词库）。  
 在搜狗细胞词库转换为纯文本的时候用到了[「深蓝词库转换」](https://github.com/studyzy/imewlconverter)。  
 所以同时致谢**Wubi-Lex**、**Rime官方五笔86版**和**深蓝词库转换**项目。
 
