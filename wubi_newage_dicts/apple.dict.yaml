@@ -2,13 +2,12 @@
 #
 # 作者：樊永彪
 # Apple公司的产品词库
-# 修正了一级简码的stem为新世纪版（原来好像是86版）
-# 数字用英文数字的首字母代替，‘+’号用plus替换
+# 忽略所有标点符号和空格，阿拉伯数字‘0-9’用汉字‘〇-九’的新世纪五笔编码的第一码代替
 # 示范：
 # iCloud  icloud
 # Apple ID  appleid
-# AppleTV+  appletvplus
-# Apple TV 4K appletvfk
+# AppleTV+  appletv
+# Apple TV 4K appletvlk
 # 本词典为个人需要的词典，你如果不需要可以删除或添加其它词典，记得修改主目录下的wubixinshiji.dict.yaml下的import_tables项。
 
 
@@ -72,7 +71,6 @@ MacBookAir	macbookair
 MacBookPro	macbookpro
 iMac	imac
 iMac Pro	imacpro
-iMac	imac
 iMacPro	imacpro
 Mac mini	macmini
 Mac Studio	macstudio
@@ -96,7 +94,6 @@ Ultra	ultra
 AirPods	airpods
 AirPods Pro	airpodspro
 AirPods Max	airpodsmax
-AirPods	airpods
 AirPodsPro	airpodspro
 AirPodsMax	airpodsmax
 HomePod	homepod
@@ -107,12 +104,12 @@ ApplePencil	applepencil
 Pencil	pencil
 Apple TV	appletv
 Apple TV HD	appletvhd
-Apple TV 4K	appletvfk
+Apple TV 4K	appletvlk
 TV	tv
 HD	hd
 AppleTV	appletv
 AppleTVHD	appletvhd
-AppleTV4K	appletvfk
+AppleTV4K	appletvlk
 Magic Mouse	magicmouse
 Magic Keyboard	magickeyboard
 Magic Trackpad	magictrackpad
@@ -172,21 +169,22 @@ Siri	siri
 iCloud	icloud
 Apple ID	appleid
 Apple Music	applemusic
-Apple TV+	appletvplus
+Apple TV+	appletv
 Apple Arcade	applearcade
-Apple News+	applenewsplus
-Apple Fitness+	applefitnessplus
+Apple News+	applenews
+Apple Fitness+	applefitness
 Apple Pay	applepay
 Apple Card	applecard
 iCloud Drive	iclouddrive
 Find My	findmy
 AppleID	appleid
 AppleMusic	applemusic
-AppleTV+	appletvplus
+AppleTV+	appletv
 AppleArcade	applearcade
-AppleNews+	applenewsplus
-AppleFitness+	applefitnessplus
+AppleNews+	applenews
+AppleFitness+	applefitness
 ApplePay	applepay
 AppleCard	applecard
 iCloudDrive	iclouddrive
 FindMy	findmy
+
