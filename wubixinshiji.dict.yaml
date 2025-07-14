@@ -15,11 +15,15 @@ use_preset_vocabulary: false
 import_tables:
   - wubi_newage_dicts/wubilex
   - wubi_newage_dicts/rime-wubi
-  - wubi_newage_dicts/yobi
+  - wubi_newage_dicts/cn_en
+  - wubi_newage_dicts/en_ext
   - wubi_newage_dicts/apple
+  # 下面是来自搜狗的细胞词库
   - wubi_newage_dicts/music
   - wubi_newage_dicts/beijing
   - wubi_newage_dicts/other
+  # 下面是用户个人词库
+  - wubi_newage_dicts/yobi
 
 columns:
   - text
