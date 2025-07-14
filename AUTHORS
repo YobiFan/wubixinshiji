@@ -9,3 +9,8 @@
 
 雪齋 <leoyoontsaw@gmail.com> : (LGPL)
   opencc/*.*
+
+樊永彪 <fyb246@icloud.com> : (Based on LGPL-licensed original work)
+  - 修改：wubixinshiji.dict.yaml 将其性质变为词典总目录和少量特殊码表，而非具体码表。
+  - 添加目录：wubi_newage_dicts，主要码表和补充词库
+  - 增补和修改项目文档（README.md）

@@ -168,29 +168,24 @@
 - IOS：**iRime输入法**
 
 
+# 5. 致谢与版权信息
+
+本项目基于郭斌勇整理的[「新世纪版五笔词库」][原方案]，项目最初来源于王永民先生发明的五笔字型新世纪编码方案。原项目在 LGPL 协议下发布，特此致谢原作者郭斌勇（guobinyong@qq.com）与贡献者雪齋（leoyoontsaw@gmail.com）。  
+
+在原始版本的基础上，进行了编码修正、词库更换扩展（`wubixinshiji.dict.yaml` 和 `wubi_newage_dicts` 目录）及文档补全，以适配当前用户需求和输入法架构。  
+
+词库修改为[「Wubi-Lex」](https://github.com/aardio/wubi-lex)(主词库) 和 [「Rime官方五笔86版」](https://wubi.aardio.com/)（补充词库）。  
+在搜狗细胞词库转换为纯文本的时候用到了[「深蓝词库转换」](https://github.com/studyzy/imewlconverter)。  
+所以同时致谢**Wubi-Lex**、**Rime官方五笔86版**和**深蓝词库转换**项目。
 
 # 5. 作者信息
-**如果您在使用该方案集的过程中有遇到了问题，或者有好的建议和想法，您都可以通过以下方式联系我，期待与您的交流：**  
+**如果您在使用该方案集的过程中有遇到了问题，或者有好的建议和想法，或者其它任何问题，您都可以通过以下方式联系我，期待与您的交流：**  
 - **方案制作人：** 樊永彪
 - **邮箱：** <fyb246@icloud.com>
-## 请我喝茶
-**如果你喜欢这个项目，欢迎请我喝茶！**
+## 捐赠
+**如果你喜欢这个项目，欢迎请我吃杯茶！**
 - **Paypal：**
 <http://paypal.me/FanYongbiao>
-- **支付宝和微信**
+- **支付宝和微信：**
 <img src="aliPay.jpg" width="207" height="281" />
 <img src="./wechatPay.jpg"  width="207" height="281" />
-
-
-# 6. 致谢
-### 原方案：
-- **本方案Fork自:** <https://github.com/GuoBinyong/wubixinshiji>
-- **作者:** 郭斌勇
-### 词库参考：
-- **Wubi-Lex：** (主词库)  
-<https://github.com/aardio/wubi-lex>  <https://wubi.aardio.com/>  
-- **Rime官方五笔86版** (去掉单字，补充词库)  
-<https://github.com/rime/rime-wubi> 
-
-### 用到的工具:
-- **深蓝词库转换** <https://github.com/studyzy/imewlconverter>
