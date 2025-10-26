@@ -1,12 +1,14 @@
-# Rime字典: yobi
-#
 # 作者：樊永彪
 # 这是一个个人词典，你或许应该替换为自己所需要的词。
 # 本词典为个人需要的词典，你如果不需要可以删除或添加其它词典，记得修改主目录下的wubixinshiji.dict.yaml下的import_tables项。
 
 ---
-name: yobi
-version: "0.1"
+name: user
+version: "0.3"
+# last_edit_time: "2021-08-07"
+dict_grouped: true # 词库管理应用识别：标记该码表为分组模式
+
+
 sort: by_weight
 # sort: original
 columns:
@@ -24,16 +26,27 @@ encoder:
       formula: "AaBaCaCb"
     - length_in_range: [4, 10]
       formula: "AaBaCaZa"
+
+#use_preset_vocabulary: true # 是否引入【八股文】的词频词序
+
+# 格式：字词 键码  权重 （中间是tab，不是空格）
+# '#'开头的只是注释， 注释只能另起一行写，不能在词条后面写
+# `##` 两个 # 开头的会被识别为分组名，其后跟的词条就是该组的内容
+
 ...
+## 这是分组名
+分组词条	wxyt
 
-# 不符合五码五笔编码规则的词条。
-AI	ai
+## 用户手动添加的词条。
 〇	ling
-
-# 参照五码五笔编码规则的带有非汉字的词条。忽略符号，手动编码。
-小a	ihaa
+AI	ai
+homeassistant	homeassistant
+HomeAssistant	homeassistant
+Home Assistant	homeassistant
+Apple Home	applehome
 OKOK	okok
 
+## 参照五码五笔编码规则的带有非汉字的词条。忽略符号，手动编码。
 1G	gggg
 2D	fgdd
 2G	fggg
@@ -59,10 +72,9 @@ T恤	ttnt
 U盘	uute
 SD卡	sdhg
 
+## 下面是自动编码的
 
-# 下面是自动编码的
-
-# 纯英文
+## 纯英文
 AAC	aac
 AAX	aax
 ADSR	adsr
@@ -348,7 +360,7 @@ pH	ph
 xswl	xswl
 yyds	yyds
 
-# 英文&数字
+## 英文&数字
 2FA	ffaa
 3D	dgdd
 4G	lhgg
@@ -366,7 +378,7 @@ MP3	mpdg
 MP4	mplh
 P2P	pfpp
 
-# 汉字&英文
+## 汉字&英文
 AA制	aarm
 AI助手	aier
 APP应用	appe
@@ -480,7 +492,7 @@ X光	xxig
 X型	xxga
 X型腿	xgev
 
-# 汉字&英文&数字
+## 汉字&英文&数字
 2FA认证	ffay
 B2B平台	bfbc
 B2C电商	bfcy
@@ -488,3 +500,115 @@ C2C交易	cfcj
 K8s集群	kwsv
 P2P借贷	pfpw
 
+## 常用APP
+QQ	qq
+WPS Office	wpsoffice
+WPS	wps
+WhatsApp	whatsapp
+Instagram	instagram
+Facebook	facebook
+TikTok	tiktok
+YouTube	youtube
+Google Maps	googlemaps
+Uber	uber
+Airbnb	airbnb
+Booking	booking
+PayPal	paypal
+Netflix	netflix
+Spotify	spotify
+Amazon	amazon
+Google Translate	googletranslate
+Gmail	gmail
+Twitter	twitter
+Telegram	telegram
+Skype	skype
+LinkedIn	linkedin
+Zoom	zoom
+Grab	grab
+Agoda	agoda
+Foodpanda	foodpanda
+Uber Eats	ubereats
+B站	bbuh
+QQ音乐	qqut
+百度	djoa
+百度地图	dofl
+百度网盘	domt
+爱奇艺	edan
+腾讯视频	eyph
+支付宝	fwpg
+滴滴出行	iibt
+淘宝	iqpg
+小红书	ixnn
+滴滴	iyiy
+哔哩哔哩	kkkk
+哔哩	kxkj
+网易云	mjfc
+网易云音乐	mjft
+快手	nnrt
+饿了么	qbtc
+钉钉	qsqs
+拼多多	rqqq
+抖音	ruuj
+携程	rwtk
+得物	tjtq
+微博	tmfg
+微信	tmwy
+美团	uglf
+闲鱼	usqg
+今日头条	wjut
+京东	ykai
+高德	yktf
+高德地图	ytfl
+
+## 犬类名称
+中华田园犬	kwld
+中国沙皮犬	klid
+京巴犬	ycdy
+北京犬	uydy
+博美	fgug
+卷毛比熊犬	utxd
+吉娃娃	fvvf
+哈士奇	kfds
+喜乐蒂牧羊犬	ftad
+圣伯纳犬	cwxd
+大白熊犬	drcd
+巴吉度猎犬	cfod
+巴哥犬	csdy
+彭布罗克威尔士柯基	fdla
+德国牧羊犬	tltd
+意大利灵缇犬	udtd
+拉布拉多	rdrq
+拉布拉多寻回犬	rdrd
+拉萨犬	rady
+斑点狗	ghqt
+日本银狐	jsqq
+松狮犬	sqdy
+松鼠犬	sedy
+比格犬	xsdy
+约克夏梗	xdds
+绒毛犬	xtdy
+罗威纳犬	ldxd
+美国可卡犬	ulsd
+美国爱斯基摩犬	uled
+腊肠犬	eedy
+苏格兰牧羊犬	asud
+苏牧	aett
+英国斗牛犬	alud
+萨摩耶	aobb
+萨摩耶德犬	aobd
+萨摩耶犬	aobd
+藏獒	adgq
+蝴蝶犬	jjdy
+西伯利亚雪橇犬	swtd
+西施犬	sydy
+西部高地白梗	suys
+贵宾犬	kpdy
+边境牧羊犬	eftd
+迷你杜宾犬	owsd
+迷你雪纳瑞	owfg
+金毛	qqtf
+金毛寻回犬	qtvd
+阿富汗猎犬	bpid
+阿拉斯加	brae
+阿拉斯加雪橇犬	brad
+雪纳瑞	fxgm

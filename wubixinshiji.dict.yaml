@@ -3,27 +3,37 @@
 # 作者：樊永彪
 # 为编辑时打开速度更快，此文件仅包含头部设置，和一级简码码。具体文件在wubi_newage_dicts/wubilex
 
+# 修正了上的stem为hg，原来是hh，居然没有注意到。
 # 修正了一级简码的stem为新世纪版（原来好像是86版）
 # 添加了阿拉伯数字和26个英文字母大小写。
 
 ---
 name: wubixinshiji
-version: "0.3"
+version: "0.4.1"
 sort: by_weight
 # sort: original
 use_preset_vocabulary: false
 import_tables:
-  - wubi_newage_dicts/wubilex
-  - wubi_newage_dicts/rime-wubi
+  # 字
+  - wubi_newage_dicts/zi-wubilex
+  # 词
+  - wubi_newage_dicts/ci-jidian
+  - wubi_newage_dicts/ci-rime
+  - wubi_newage_dicts/ci-wubilex
+  # 扩展
+  - wubi_newage_dicts/ext-jidian_extra
+  # 下面这个词库是wubilex中的扩展性的和比较长的词，默认禁用了，因为打开后重码会变多
+  # - wubi_newage_dicts/ext-wubilex_other
+  # 下面是来自搜狗的细胞词库
+  # 作者的行业和地区词库，根据你的情况做更改吧
+  # - wubi_newage_dicts/music
+  - wubi_newage_dicts/beijing
+  # 其它收集
+  - wubi_newage_dicts/apple
   - wubi_newage_dicts/cn_en
   - wubi_newage_dicts/en_ext
-  - wubi_newage_dicts/apple
-  # 下面是来自搜狗的细胞词库
-  - wubi_newage_dicts/music
-  - wubi_newage_dicts/beijing
-  - wubi_newage_dicts/other
   # 下面是用户个人词库
-  - wubi_newage_dicts/yobi
+  - wubi_newage_dicts/user
 
 columns:
   - text
@@ -55,7 +65,7 @@ encoder:
 #土	f	476035358
 一	g	2015124793	gg
 #王	g	2015124792
-上	h	783204383	hh
+上	h	783204383	hg
 #目	h	783204382
 # 不	i	1435362894	gi
 不	i	1435362894	dh
